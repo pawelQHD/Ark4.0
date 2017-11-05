@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ie.ark.ark40.All">
+    <item
+        android:id="@+id/action_all"
+        android:orderInCategory="100"
+        android:title="@string/all"
+        app:showAsAction="never"
+        android:onClick="all" />
+    <item
+        android:id="@+id/action_carnivores"
+        android:orderInCategory="100"
+        android:title="@string/carnivores"
+        app:showAsAction="never"
+        android:onClick="carnivores"/>
+    <item
+        android:id="@+id/action_herbivores"
+        android:orderInCategory="100"
+        android:title="@string/herbivores"
+        app:showAsAction="never"
+        android:onClick="herbivores" />
+    <item
+        android:id="@+id/action_addDino"
+        android:orderInCategory="100"
+        android:title="@string/addDino"
+        app:showAsAction="never"
+        android:onClick="addDino"/>
+    <item
+        android:id="@+id/action_viewDino"
+        android:orderInCategory="100"
+        android:title="@string/viewDino"
+        app:showAsAction="never"
+        android:onClick="viewDino" />
+
+</menu>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="ie.ark.ark40.Herbivores"
+    tools:showIn="@layout/activity_herbivores">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="3"
+            android:rowCount="2">
+
+
+            <ImageButton
+                android:id="@+id/achatina"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:onClick="buttonAchatina"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/achatina" />
+
+            <ImageButton
+                android:id="@+id/ankylosaurus"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:onClick="buttonAnkylosaurus"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ankylosaurus" />
+
+            <ImageButton
+                android:id="@+id/brontosaurus"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:onClick="buttonBrontosaurus"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/brontosaurus" />
+
+            <ImageButton
+                android:id="@+id/carbonemys"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:onClick="buttonCarbonemys"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/carbonemys" />
+
+
+
+        </GridLayout>
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>

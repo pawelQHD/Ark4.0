@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="ie.ark.ark40.All"
+    tools:showIn="@layout/activity_all">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="3"
+            android:rowCount="2">
+
+
+            <ImageButton
+                android:id="@+id/achatina"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:onClick="buttonAchatina"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/achatina" />
+
+            <ImageButton
+                android:id="@+id/allosaurus"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:onClick="buttonAllosaurus"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/allosaurus" />
+
+            <ImageButton
+                android:id="@+id/ankylosaurus"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:onClick="buttonAnkylosaurus"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ankylosaurus" />
+
+            <ImageButton
+                android:id="@+id/argentavis"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:onClick="buttonArgentavis"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/argentavis" />
+
+            <ImageButton
+                android:id="@+id/arthropluera"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:onClick="buttonArthropluera"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/arthropluera" />
+
+            <ImageButton
+                android:id="@+id/beelzebufo"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:onClick="buttonBeelzebufo"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/beelzebufo" />
+
+            <ImageButton
+                android:id="@+id/brontosaurus"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:onClick="buttonBrontosaurus"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/brontosaurus" />
+
+            <ImageButton
+                android:id="@+id/broodmother"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:onClick="buttonBroodmother"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/broodmother" />
+
+            <ImageButton
+                android:id="@+id/carbonemys"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:onClick="buttonCarbonemys"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/carbonemys" />
+
+            <ImageButton
+                android:id="@+id/carnotaurus"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:onClick="buttonCarnotaurus"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/carnotaurus" />
+
+            <ImageButton
+                android:id="@+id/compy"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:onClick="buttonCompy"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/compy" />
+
+            <ImageButton
+                android:id="@+id/daeodon"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="@dimen/button_height"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:onClick="buttonDaeodon"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/daeodon" />
+
+
+
+        </GridLayout>
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>
